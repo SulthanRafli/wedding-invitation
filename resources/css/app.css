@@ -1,0 +1,12 @@
+.bg-comment {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 10px;
+    border: 1px dashed #e4c389;
+}
+
+.badge-prm {
+    color: #fff;
+    background-color: #324a6a;
+}
