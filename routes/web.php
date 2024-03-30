@@ -14,9 +14,8 @@ use App\Http\Controllers\CommentController;
 |
 */
 
-Route::get('/{id}', [CommentController::class, 'index']);
-Route::get('/', function () {
-    $name = 'Fulan';
-    $image = '9';
-    return view('welcome', compact(['name', 'image']));
+Route::get('/', [CommentController::class, 'index']);
+Route::fallback(function () {
+    // Your 404 error handling logic here
+    return response()->view('404'); // Render a custom 404 view
 });

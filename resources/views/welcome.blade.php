@@ -9,15 +9,29 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="google" content="notranslate" />
     <title>The Wedding of Lintang &amp; Rafli</title>
-    <meta name="title" content="Wedding &amp; Engagement  - Luxury Navy" />
-    <meta name="description" content="" />
-    <meta itemprop="image" content="{{ asset('themes/luxury-navy/luxury-navy.jpg') }}" />
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+    <meta name="title" content="The Wedding Lintang & Rafli" />
+    <meta name="description" content="Sabtu, 20 April 2024" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="luxury-navy.html" />
-    <meta property="og:title" content="Wedding &amp; Engagement  - Luxury Navy" />
-    <meta property="og:description" content="" />
-    <meta property="og:image" content="{{ asset('themes/luxury-navy/luxury-navy.jpg') }}" />
+    <meta property="og:url" content="https://lintangrafli.site/" />
+    <meta property="og:title" content="The Wedding Lintang & Rafli" />
+    <meta property="og:description" content="Sabtu, 20 April 2024" />
+    <meta property="og:image" content="{{ asset('images/photo14.jpg') }}" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://lintangrafli.site/" />
+    <meta property="twitter:title" content="The Wedding Lintang & Rafli" />
+    <meta property="twitter:description" content="Sabtu, 20 April 2024" />
+    <meta property="twitter:image" content="{{ asset('images/photo14.jpg') }}" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/splide@4.1.4/splide.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('plugins/animate.css@4.1.1/animate.min.css') }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -192,9 +206,10 @@
                                         class="editable text-center mb-4 animate__animated animate__fadeInDown animate__slower">
                                         <p class="mb-2" style="    font-size: 200%;">بِسْمِ اللهِ الرَّحْمَنِ
                                             الرَّحِيْمِ</p>
-                                        <p> Assalamu'alaikum
-                                            Wr Wb<br />Tanpa mengurangi rasa hormat kami bermaksud
-                                            mengundang Bapak/Ibu/Saudara/i pada acara pernikahan kami:</p>
+                                        <p class="mb-2">Assalamu'alaikum
+                                            Wr Wb</p>
+                                        <p> Tanpa mengurangi rasa hormat <br> kami bermaksud
+                                            mengundang <br> Bapak/Ibu/Saudara/i pada acara pernikahan kami:</p>
                                     </div>
                                     <div
                                         class="text-center mb-4 animate__animated animate__fadeInLeft animate__slower">
@@ -352,7 +367,7 @@
                                 <img class="frame-br animate__animated animate__fadeInBottomRight animate__slower"
                                     src="{{ asset('themes/luxury-maroon/frame-br.png') }}" alt="frame" />
                             </div>
-                            <livewire:comment-component :image="$image" />
+                            <livewire:comment-component />
                         </div>
                     </li>
 
@@ -372,8 +387,8 @@
                                         Kirim Hadiah
                                     </div>
                                     <div class="editable mb-4 animate__animated animate__fadeInDown animate__slower">
-                                        <p class="mb-0">Doa Restu Anda merupakan karunia yang sangat berarti bagi
-                                            kami. Namun jika Anda ingin memberi hadiah kami sediakan
+                                        <p class="mb-0">Doa Restu anda merupakan karunia yang sangat berarti
+                                            bagi kami. <br> Namun jika anda ingin memberi hadiah kami sediakan
                                             fitur berikut</p>
                                     </div>
                                     <div class="mt-1 pt-4 pb-4 rounded animate__animated animate__zoomIn animate__slow"
@@ -650,68 +665,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
                     </svg>
                 </a>
-            </div>
-        </div>
-        <div class="modal fade" id="qrModal" tabindex="-1" role="dialog" aria-labelledby="qrModal"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content" style="height: 100%">
-                    <div
-                        style="width: 100%; aspect-ratio: 16/9; background-size: cover; background-position: center; background-image: url('{{ asset('images/no-image.jpg') }}');">
-                    </div>
-                    <div class="text-center py-4 px-4">
-                        <div style="display: flex; justify-content: space-between; align-items: start; gap: 12px;">
-                            <div class="mx-auto">
-                                <?xml version="1.0" encoding="UTF-8"?>
-                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100"
-                                    viewBox="0 0 100 100">
-                                    <rect x="0" y="0" width="100" height="100" fill="#ffffff" />
-                                    <g transform="scale(4)">
-                                        <g transform="translate(0,0)">
-                                            <path fill-rule="evenodd"
-                                                d="M8 0L8 1L9 1L9 2L10 2L10 3L11 3L11 1L13 1L13 0L11 0L11 1L9 1L9 0ZM14 0L14 1L15 1L15 0ZM16 0L16 1L17 1L17 0ZM12 2L12 4L11 4L11 5L10 5L10 4L9 4L9 5L10 5L10 8L9 8L9 6L8 6L8 8L9 8L9 10L8 10L8 11L7 11L7 10L6 10L6 11L5 11L5 8L3 8L3 9L4 9L4 12L5 12L5 13L3 13L3 10L2 10L2 8L0 8L0 11L1 11L1 12L0 12L0 17L1 17L1 15L3 15L3 16L2 16L2 17L7 17L7 16L6 16L6 15L8 15L8 18L9 18L9 20L8 20L8 22L9 22L9 20L10 20L10 23L8 23L8 25L9 25L9 24L10 24L10 23L11 23L11 20L10 20L10 19L12 19L12 21L14 21L14 24L13 24L13 25L15 25L15 22L16 22L16 23L17 23L17 22L19 22L19 21L21 21L21 16L22 16L22 18L24 18L24 19L23 19L23 22L20 22L20 23L18 23L18 25L19 25L19 24L21 24L21 25L22 25L22 24L24 24L24 25L25 25L25 18L24 18L24 16L25 16L25 14L24 14L24 13L25 13L25 10L24 10L24 9L25 9L25 8L24 8L24 9L19 9L19 8L18 8L18 9L19 9L19 10L16 10L16 9L17 9L17 6L16 6L16 8L14 8L14 7L15 7L15 6L14 6L14 5L15 5L15 4L16 4L16 5L17 5L17 3L15 3L15 4L14 4L14 2ZM12 4L12 5L11 5L11 7L12 7L12 9L10 9L10 10L9 10L9 11L10 11L10 10L12 10L12 11L13 11L13 13L11 13L11 12L10 12L10 13L9 13L9 14L8 14L8 12L7 12L7 11L6 11L6 12L7 12L7 13L6 13L6 14L3 14L3 15L4 15L4 16L5 16L5 15L6 15L6 14L8 14L8 15L9 15L9 14L10 14L10 15L11 15L11 14L14 14L14 13L16 13L16 12L17 12L17 13L18 13L18 14L19 14L19 15L20 15L20 16L21 16L21 15L20 15L20 13L21 13L21 14L23 14L23 13L24 13L24 12L21 12L21 10L20 10L20 11L19 11L19 13L18 13L18 11L15 11L15 10L14 10L14 11L13 11L13 10L12 10L12 9L14 9L14 8L13 8L13 7L14 7L14 6L13 6L13 7L12 7L12 5L14 5L14 4ZM6 8L6 9L7 9L7 8ZM22 10L22 11L24 11L24 10ZM14 11L14 12L15 12L15 11ZM1 13L1 14L2 14L2 13ZM16 14L16 16L15 16L15 15L12 15L12 16L9 16L9 17L14 17L14 18L12 18L12 19L13 19L13 20L14 20L14 19L16 19L16 16L18 16L18 15L17 15L17 14ZM23 15L23 16L24 16L24 15ZM14 16L14 17L15 17L15 16ZM17 17L17 20L20 20L20 17ZM18 18L18 19L19 19L19 18ZM12 22L12 23L13 23L13 22ZM21 23L21 24L22 24L22 23ZM16 24L16 25L17 25L17 24ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM18 0L18 7L25 7L25 0ZM19 1L19 6L24 6L24 1ZM20 2L20 5L23 5L23 2ZM0 18L0 25L7 25L7 18ZM1 19L1 24L6 24L6 19ZM2 20L2 23L5 23L5 20Z"
-                                                fill="#000000" />
-                                        </g>
-                                    </g>
-                                </svg>
-                                <div>
-                                    <small style="margin-top: 10px; text-align: center"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <hr
-                            style="border-style: dashed; margin-top: 1rem; margin-bottom: 1rem; border: 0; border-top: 1px solid rgba(0, 0, 0, 0.1);" />
-                        <div style="margin-bottom: 20px">
-                            <div style="color: #b2b2b2">Name</div>
-                            <div>Nama Tamu</div>
-                        </div>
-                    </div>
-                    <button onclick="closeModal(qrModal)" type="button" class="btn btn-close">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="42px" width="42px" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M6 18 18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="rsvpModal"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content" style="height: 100%">
-                    <rsvp-component
-                        :lang='{ "invitation_code": "Kode Undangan", "validate_code": "Validasi Kode Undangan", "name": "Nama", "group_name": "Nama Grup", "phone": "No Hp \/ WhatsApp", "attendance": "Kehadiran?", "yes": "Hadir", "no": "Tidak Hadir", "guest": "Orang", "guest_count": "Jumlah Tamu", "comment": "Komentar atau Ucapan", "send": "Kirim", "update": "Kirim" }'
-                        :invitation_id="3826" name="Nama Tamu" code="#" overlay="1">
-                    </rsvp-component>
-                    <button onclick="closeModal(rsvpModal)" type="button" class="btn btn-close">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="42px" width="42px" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M6 18 18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
             </div>
         </div>
     </main>

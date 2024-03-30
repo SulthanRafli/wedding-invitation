@@ -6,19 +6,22 @@ use App\Models\Tamu;
 
 class CommentController extends Controller
 {
-    public function index($id)
+    public function index()
     {
+        $guestUuid = request()->query('guest');
         $name = 'Fulan';
         $image = '9';
 
-        if (is_numeric($id)) {
-            $data = Tamu::find($id);
+        if ($guestUuid) {
+            $data = Tamu::find($guestUuid);
             if ($data) {
                 $name = $data->nama;
                 $image = $data->image;
+            } else {
+                return view('404');
             }
         } else {
-            $name = str_replace("+", " ", $id);
+            return view('404');
         }
 
         return view('welcome', compact(['name']));
